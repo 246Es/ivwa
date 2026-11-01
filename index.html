@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff6f2"><title>A little birthday surprise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="welcome-page">
+  <main class="welcome-layout">
+    <section class="welcome-copy">
+      <p class="eyebrow"><span class="tiny-heart">♥</span> A little something, for my special human</p>
+      <h1>Today is all<br>about <em>you.</em></h1>
+      <p class="intro">I made you a tiny corner of the internet, filled with all the things I wish I could wrap up and give you.</p>
+      <form id="welcome-form" class="welcome-form">
+        <label for="her-name">Your login name</label>
+        <div class="input-row"><input id="her-name" name="username" autocomplete="username" placeholder="Enter your name" required aria-describedby="login-error"><button class="button button-dark" type="submit">UNlock MY HEART <span aria-hidden="true">↗</span></button></div>
+        <p class="form-note">Use your special name to unlock your birthday surprise ♡</p><p class="login-error" id="login-error" role="alert" aria-live="polite"></p>
+      </form>
+      <p class="signature">For My Mia Moglie <span>♥</span></p>
+    </section>
+    <section class="welcome-art" aria-label="A birthday bouquet illustration">
+      <div class="sun-disc"></div><span class="floating-heart heart-a">♥</span><span class="floating-heart heart-b">♥</span>
+      <div class="art-card"><div class="flower flower-one"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div><div class="flower flower-two"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div><div class="flower flower-three"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div><div class="stems"></div><div class="vase"></div><p>for my favorite person</p></div>
+      <span class="art-caption">a day as lovely as you</span>
+    </section>
+  </main>
+  <audio id="birthday-song" src="assets/2Pac - I Miss You (2021) (192 kbps).mp3" preload="auto" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
+
